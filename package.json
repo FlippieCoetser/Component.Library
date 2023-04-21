@@ -1,6 +1,6 @@
 {
   "name": "@browser-modules/component.library",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ES6 Module with enumerations",
   "browser": "lib/library.js",
   "types": "lib/library.d.ts",
