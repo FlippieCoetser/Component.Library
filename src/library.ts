@@ -2,4 +2,5 @@
  * @module library
  */
 
-export { components } from "./enums/components.js";
+export { components } from "./components.js";
+export { gestures } from "./gestures.js";

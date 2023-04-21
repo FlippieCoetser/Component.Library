@@ -1,5 +1,5 @@
 // Component Unit Tests
-import { components } from "../src/enums/components.js";
+import { components } from "../src/components.js";
 
 describe("Given components imported", () => {
   it("Then components should be defined", () => {

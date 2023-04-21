@@ -4,7 +4,8 @@
     "module": "es2020",
     "target": "es2020",
     "sourceMap": true,
-    "inlineSources": true
+    "inlineSources": true,
+    "moduleResolution": "node"
   },
   "include": ["./src/**/*", "./test/**/*"],
   "typedocOptions": {

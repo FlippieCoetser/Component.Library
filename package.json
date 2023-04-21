@@ -1,6 +1,6 @@
 {
   "name": "@browser-modules/component.library",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ES6 Module with enumerations",
   "browser": "lib/library.js",
   "types": "lib/library.d.ts",
@@ -24,14 +24,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FlippieCoetser/Component.library.git"
+    "url": "git+https://github.com/FlippieCoetser/Component.Library.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FlippieCoetser/Component.library/issues"
+    "url": "https://github.com/FlippieCoetser/Component.Library/issues"
   },
-  "homepage": "https://github.com/FlippieCoetser/Component.library#readme",
+  "homepage": "https://github.com/FlippieCoetser/Component.Library#readme",
   "devDependencies": {
     "@knodes/typedoc-plugin-pages": "^0.22.5",
     "@types/jasmine": "^4.0.3",
