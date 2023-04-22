@@ -1,7 +1,7 @@
 {
   "name": "@browser-modules/component.library",
-  "version": "1.0.3",
-  "description": "ES6 Module with enumerations",
+  "version": "1.0.4",
+  "description": "ES6 Module containing component library metadata (enumerations)",
   "browser": "lib/library.js",
   "types": "lib/library.d.ts",
   "files": [
@@ -33,8 +33,8 @@
   },
   "homepage": "https://github.com/FlippieCoetser/Component.Library#readme",
   "devDependencies": {
-    "@knodes/typedoc-plugin-pages": "^0.22.5",
     "@types/jasmine": "^4.0.3",
+    "@types/node": "^18.15.13",
     "http-server": "^14.1.0",
     "jasmine": "^4.1.0",
     "karma": "^6.3.20",
@@ -43,9 +43,9 @@
     "karma-coverage-istanbul-reporter": "^3.0.3",
     "karma-jasmine": "^5.0.1",
     "karma-spec-reporter": "0.0.34",
-    "typedoc": "^0.22.15",
-    "typedoc-plugin-merge-modules": "^3.1.0",
-    "typedoc-plugin-mermaid": "^1.8.0",
-    "typescript": "^4.7.2"
+    "typedoc": "^0.24.4",
+    "typedoc-plugin-mermaid": "^1.10.0",
+    "typedoc-plugin-pages": "^1.1.0",
+    "typescript": "^5.0.4"
   }
 }

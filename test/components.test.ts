@@ -1,61 +1,61 @@
 // Component Unit Tests
-import { components } from "../src/components.js";
+import { Components } from "../src/components.js";
 
 describe("Given components imported", () => {
   it("Then components should be defined", () => {
-    expect(components).toBeDefined();
+    expect(Components).toBeDefined();
   });
   describe("Given components contains a list of component names", () => {
     it("Then components should have Test key", () => {
-      expect(components.Test).toBeDefined();
+      expect(Components.Test).toBeDefined();
     });
     it("Then components should have Pin key", () => {
-      expect(components.Pin).toBeDefined();
+      expect(Components.Pin).toBeDefined();
     });
     it("Then components should have Dots key", () => {
-      expect(components.Dots).toBeDefined();
+      expect(Components.Dots).toBeDefined();
     });
     it("Then components should have Left key", () => {
-      expect(components.Left).toBeDefined();
+      expect(Components.Left).toBeDefined();
     });
     it("Then components should have Right key", () => {
-      expect(components.Right).toBeDefined();
+      expect(Components.Right).toBeDefined();
     });
     it("Then components should have Up key", () => {
-      expect(components.Up).toBeDefined();
+      expect(Components.Up).toBeDefined();
     });
     it("Then components should have Down key", () => {
-      expect(components.Down).toBeDefined();
+      expect(Components.Down).toBeDefined();
     });
     it("Then components should have Restore key", () => {
-      expect(components.Restore).toBeDefined();
+      expect(Components.Restore).toBeDefined();
     });
     it("Then components should have Maximize key", () => {
-      expect(components.Maximize).toBeDefined();
+      expect(Components.Maximize).toBeDefined();
     });
     it("Then components should have Minimize key", () => {
-      expect(components.Minimize).toBeDefined();
+      expect(Components.Minimize).toBeDefined();
     });
     it("Then components should have Close key", () => {
-      expect(components.Close).toBeDefined();
+      expect(Components.Close).toBeDefined();
     });
     it("Then components should have Header key", () => {
-      expect(components.Header).toBeDefined();
+      expect(Components.Header).toBeDefined();
     });
     it("Then components should have Hamburger key", () => {
-      expect(components.Hamburger).toBeDefined();
+      expect(Components.Hamburger).toBeDefined();
     });
     it("Then components should have Contents key", () => {
-      expect(components.Contents).toBeDefined();
+      expect(Components.Contents).toBeDefined();
     });
     it("Then components should have Fullscreen key", () => {
-      expect(components.Fullscreen).toBeDefined();
+      expect(Components.Fullscreen).toBeDefined();
     });
     it("Then components should have Taskbar key", () => {
-      expect(components.Taskbar).toBeDefined();
+      expect(Components.Taskbar).toBeDefined();
     });
     it("Then components should have Modal key", () => {
-      expect(components.Modal).toBeDefined();
+      expect(Components.Modal).toBeDefined();
     });
   });
 });
