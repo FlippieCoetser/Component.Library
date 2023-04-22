@@ -2,4 +2,4 @@
  * @module library
  */
 
-export { Components } from "./components.js";
+export { Components } from "./Components.js";

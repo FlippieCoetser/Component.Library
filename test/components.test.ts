@@ -1,5 +1,5 @@
 // Component Unit Tests
-import { Components } from "../src/components.js";
+import { Components } from "../src/Components.js";
 
 describe("Given components imported", () => {
   it("Then components should be defined", () => {
