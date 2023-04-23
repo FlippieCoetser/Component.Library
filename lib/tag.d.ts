@@ -3,64 +3,64 @@
  * This enum provides a list of all the web components with mappings to valid tags.
  * @enum
  */
-export declare const Components: {
+export declare const Tag: {
     /**
      * Test component made available for quick experimentation
      */
-    readonly Test: "component-test";
+    readonly TEST: "component-test";
     /**
      * Switch Button
      */
-    readonly Pin: "button-pin";
+    readonly PIN: "button-pin";
     /**
      * Touch Button
      */
-    readonly Dots: "button-dots";
+    readonly DOTS: "button-dots";
     /**
      * Touch Button
      */
-    readonly Left: "button-left";
+    readonly LEFT: "button-left";
     /**
      * Touch Button
      */
-    readonly Right: "button-right";
+    readonly RIGHT: "button-right";
     /**
      * Touch Button
      */
-    readonly Up: "button-up";
+    readonly UP: "button-up";
     /**
      * Touch Button
      */
-    readonly Down: "button-down";
+    readonly DOWN: "button-down";
     /**
      * Switch Button
      */
-    readonly Restore: "button-restore";
+    readonly RESTORE: "button-restore";
     /**
      * Touch Button
      */
-    readonly Maximize: "button-maximize";
+    readonly MAXIMIZE: "button-maximize";
     /**
      * Touch Button
      */
-    readonly Minimize: "button-minimize";
+    readonly MINIMIZE: "button-minimize";
     /**
      * Touch Button
      */
-    readonly Close: "button-close";
-    readonly Header: "bar-header";
+    readonly CLOSE: "button-close";
+    readonly HEADER: "bar-header";
     /**
      * Switch Button
      */
-    readonly Hamburger: "button-hamburger";
+    readonly HAMBURGER: "button-hamburger";
     /**
      * Switch Button
      */
-    readonly Contents: "button-contents";
+    readonly CONTENTS: "button-contents";
     /**
      * Switch Button
      */
-    readonly Fullscreen: "button-fullscreen";
-    readonly Taskbar: "task-bar";
-    readonly Modal: "app-modal";
+    readonly FULLSCREEN: "button-fullscreen";
+    readonly TASKBAR: "task-bar";
+    readonly MODAL: "app-modal";
 };

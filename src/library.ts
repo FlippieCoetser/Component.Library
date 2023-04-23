@@ -2,4 +2,4 @@
  * @module library
  */
 
-export { Components } from "./Components.js";
+export { Tag } from "./tag.js";
