@@ -64,3 +64,5 @@ export const Tag = {
   TASKBAR: "task-bar",
   MODAL: "app-modal",
 } as const;
+
+export type ComponentTag = keyof typeof Tag;

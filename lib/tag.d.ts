@@ -64,3 +64,4 @@ export declare const Tag: {
     readonly TASKBAR: "task-bar";
     readonly MODAL: "app-modal";
 };
+export type ComponentTag = keyof typeof Tag;
