@@ -6,8 +6,11 @@ describe("Given tag imported", () => {
     expect(Tag).toBeDefined();
   });
   describe("Given tag contains a list of component names", () => {
-    it("Then tag should have Test key", () => {
+    it("Then tag should have TEST key", () => {
       expect(Tag.TEST).toBeDefined();
+    });
+    it("Then tag should have COMPONENT key", () => {
+      expect(Tag.COMPONENT).toBeDefined();
     });
     it("Then tag should have PIN key", () => {
       expect(Tag.PIN).toBeDefined();

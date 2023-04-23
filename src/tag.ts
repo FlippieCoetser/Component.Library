@@ -9,6 +9,10 @@ export const Tag = {
    */
   TEST: "component-test",
   /**
+   * Test component made available for quick experimentation
+   */
+  COMPONENT: "component-test",
+  /**
    * Switch Button
    */
   PIN: "button-pin",
