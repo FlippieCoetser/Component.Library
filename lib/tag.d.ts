@@ -9,6 +9,10 @@ export declare const Tag: {
      */
     readonly TEST: "component-test";
     /**
+     * Test component made available for quick experimentation
+     */
+    readonly COMPONENT: "component-test";
+    /**
      * Switch Button
      */
     readonly PIN: "button-pin";
