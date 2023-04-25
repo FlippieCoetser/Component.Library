@@ -12,6 +12,12 @@ describe("Given tag imported", () => {
     it("Then tag should have COMPONENT key", () => {
       expect(Tag.COMPONENT).toBeDefined();
     });
+    it("Then tag should have LOGIC key", () => {
+      expect(Tag.LOGIC).toBeDefined();
+    });
+    it("Then tag should have VIEW key", () => {
+      expect(Tag.VIEW).toBeDefined();
+    });
     it("Then tag should have PIN key", () => {
       expect(Tag.PIN).toBeDefined();
     });
