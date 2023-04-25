@@ -13,6 +13,14 @@ export declare const Tag: {
      */
     readonly COMPONENT: "component-test";
     /**
+     * Test component made available for quick experimentation
+     */
+    readonly LOGIC: "component-logic";
+    /**
+     * Test component made available for quick experimentation
+     */
+    readonly VIEW: "component-view";
+    /**
      * Switch Button
      */
     readonly PIN: "button-pin";
